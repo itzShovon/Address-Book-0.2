@@ -46,7 +46,6 @@
                         <?php
                             $_SESSION['user_ID'] = $user_ID;
                             $_SESSION['person_no'] = $person_no;
-//                            $_SESSION['person_phone_no'] = $person_phone_no;
                         ?>
                         <a href="AddressPhoneDelete.php?id=<?php echo $row->user_ID; ?>&p=<?php echo $row->person_no; ?>&n=<?php echo $row->person_phone_no; ?>" class="phone_delete">Delete</a>
                         <?php } ?>

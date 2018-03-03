@@ -22,7 +22,8 @@
         </div>
         <div class="Middle" id="Middle">
             <div class="MDocuments" id="MDocuments">
-                <a class="Menu" href="PersonRegister.php?id=<?php echo $user_ID; ?>">Add Document</a><br>
+                <a class="Menu" href="SaveFile.php?id=<?php echo $user_ID; ?>">Save Document</a>
+                <a class="Menu" href="PersonRegister.php?id=<?php echo $user_ID; ?>">Add Document</a>
                 <div class="MDTable">
                     <div class="MDTCol1">
                         <strong>No.</strong><br>

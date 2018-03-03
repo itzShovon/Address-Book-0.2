@@ -29,19 +29,8 @@
         $statement6 = $db->prepare("SELECT user_ID, person_no, person_phone_no FROM person_phone WHERE user_ID = $user_ID and person_no = $person_no");
         $statement6->execute();	
         $result6 = $statement6->fetchAll(PDO::FETCH_OBJ);
-        
-
-        
-        
-        
-        
-        
-        
     }catch (Exception $ex) {
         echo $ex->getMessage();
     }
-
-
-
 
 ?>

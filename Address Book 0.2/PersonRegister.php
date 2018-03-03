@@ -84,7 +84,6 @@
                                 <div class="Button">
                                     <button type="submit" name="user_submit" onclick="return RegisterValidation();">Submit</button>
                                     <button type="reset">Reset</button>
-<!--                                    <a href="Document.php?id=<?php echo $user_ID ?>">Temp check</a>-->
                                 </div>
                             </form>
                         </div>

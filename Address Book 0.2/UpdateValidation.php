@@ -1,6 +1,6 @@
 <?php
     $person_no = htmlspecialchars($_GET['id2']);
-    $user_ID= htmlspecialchars($_GET["id"]);
+    $user_ID = htmlspecialchars($_GET["id"]);
 
     session_start();
     $_SESSION["user_ID"] = $user_ID;

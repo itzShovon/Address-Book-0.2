@@ -3,17 +3,12 @@
     $person_no = htmlspecialchars($_GET["p"]);
     $person_phone_no = htmlspecialchars($_GET["n"]);
 
-//    session_start();
-//    $_SESSION['user_ID'] = $user_ID;
-//    $_SESSION['person_no'] = $person_no;
-//    $_SESSION['person_phone_no'] = $person_phone_no;
 
     require 'config.php';
     $sql = "DELETE FROM person_phone WHERE user_ID=$user_ID AND person_no=$person_no AND person_phone_no=$person_phone_no";
 
     try {
         $stmt = $db->prepare($sql);
-//        $stmt->bindValue(":user_ID", $user_ID);
 
         $stmt->execute();
 //        $res = $stmt->rowCount();
